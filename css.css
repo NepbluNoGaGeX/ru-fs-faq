@@ -1,0 +1,266 @@
+
+/* mobile size first, 100% viewport and 24 px fonts, etc */
+body
+{
+/* old
+	background: black;
+	color: white;
+*/
+	background: #262626;
+	color: #cccccc;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+
+	text-align: left;
+	max-width: 100%;
+	margin: 0px 10px;
+}
+
+/* desktop browser 1080p peasant values, dunno? */
+
+/* desktop browser 4k luxurious */
+@media only screen and (min-width: 768px)
+{
+	body
+	{
+		max-width: 100%;
+		font-size: 16px;
+	}
+}
+
+a
+{
+	color: green;
+}
+
+b
+{
+	color: white;
+}
+
+/* pre tag wrapping, mostly for mobile devices */
+pre
+{
+	white-space: pre-wrap;
+}
+
+/* header h1 */
+h1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: white;
+}
+
+h2
+{
+	color: white;
+}
+
+h3
+{
+	color: white;
+}
+
+header
+{
+	text-align: center;
+	max-width: 100%;
+}
+
+section
+{
+}
+
+footer
+{
+	text-align: center;
+	max-width: 100%;
+}
+
+.button
+{
+	background-color: darkgreen;
+	border: none;
+	border-radius: 4px;
+	margin: 10px 5px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+/*
+terrain categories
+*/
+.wrapper8km
+{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+	background-color: gray;
+	color: black;
+}
+
+.wrapper4km
+{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+	background-color: gray;
+	color: black;
+}
+
+.wrapper2km
+{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+	background-color: gray;
+	color: black;
+}
+
+.wrapperuntested
+{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+	background-color: gray;
+	color: black;
+}
+
+/*
+terrain individual releases
+*/
+.terrain8km
+{
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	/* font-size: 150%; */
+}
+
+.terrain4km
+{
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	/* font-size: 150%; */
+}
+
+.terrain2km
+{
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	/* font-size: 150%; */
+}
+
+.terrainuntested
+{
+	background-color: gray;
+	color: black;
+	border-radius: 5px;
+	padding: 20px;
+	/* font-size: 150%; */
+}
+
+/*
+mod categories
+*/
+.wrapper_mod_vehicles
+{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+	background-color: #595959;
+	color: black;
+}
+
+/*
+mod individual releases
+*/
+.mod_release_Vehicle
+{
+	background-color: #4d4d4d;
+	color: #cccccc;
+	border-radius: 5px;
+	padding: 20px;
+	/* font-size: 150%; */
+}
+
+/*
+terrain changelog
+*/
+.changelog
+{
+	margin: 0px 5px;
+	font-size: 14px;
+}
+
+/*
+PMC terrain pages
+*/
+.terrain
+{
+	margin: 0px 10px;
+}
+
+/*
+PMC terrain farm field pre's
+*/
+.farmfields
+{
+	margin: 0px 50px 0px 0px;
+	display: inline-block;
+}
+
+/*
+Terrain screenshot thumbnail images
+*/
+.terrainimg
+{
+	padding: 3px 15px;
+	width: auto;
+	height: auto;
+}
+
+/*
+Image responsive
+*/
+.imgresponsive
+{
+	max-width: 768px;
+	width: auto;
+	height: auto;
+}
+
+/*
+PMC Farm Lab features ;)
+*/
+.grid-container
+{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.grid-item
+{
+	padding: 5px;
+}
+
+/*
+warning label for unfinished pages, red background, black text and kind of narrow centered text area
+*/
+.warninglabel
+{
+	background: rgb(255,0,0);
+	color: rgb(10,10,10);
+	padding: 5px 100px;
+}
